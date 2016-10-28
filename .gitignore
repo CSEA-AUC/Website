@@ -1,0 +1,12 @@
+# project
+_site
+.sass-cache
+.idea
+
+# bundler's Gemfile.lock
+Gemfile.lock
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
