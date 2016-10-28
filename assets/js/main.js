@@ -5,13 +5,13 @@ var main = {
 
   init : function() {
       // Shorten the navbar after scrolling a little bit down
-      // $(window).scroll(function () {
-      //     if ($(".navbar").offset().top > 50) {
-      //         $(".navbar").addClass("top-nav-short navbar-border");
-      //     } else {
-      //         $(".navbar").removeClass("top-nav-short navbar-border");
-      //     }
-      // });
+      $(window).scroll(function () {
+          if ($(".navbar").offset().top > 50) {
+              $(".navbar").addClass("solid-background");
+          } else {
+              $(".navbar").removeClass("solid-background");
+          }
+      });
 
       // On mobile, hide the avatar when expanding the navbar menu
       $('#main-navbar').on('show.bs.collapse', function () {

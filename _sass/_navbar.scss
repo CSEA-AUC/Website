@@ -27,6 +27,15 @@
 
 }
 
+.solid-background {
+    @media only screen and (min-width: 768px) {
+        background-color: #404040;
+        .nav li a, .navbar-brand {
+            color: rgba(245, 245, 245, 1.0);
+        }
+    }
+}
+
 ///* Multi-level navigation links */
 //.navbar-custom .nav .navlinks-container {
 //    position: relative;
