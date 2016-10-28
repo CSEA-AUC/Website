@@ -1,0 +1,86 @@
+body {
+    height: 100%;
+    position: relative;
+}
+
+.landing-page {
+    color: white;
+    background: black;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    .row > * {
+        top: auto;
+        margin: 70px 0 70px 0;
+        @media only screen and (min-width: 768px) {
+            top: 30%;
+            margin: 0;
+        }
+    }
+    .logo-container {
+        font-size: 50px;
+        width: 250px;
+        height: 250px;
+        line-height: 150px;
+        background: white;
+        color: black;
+        padding: 50px;
+        border-radius: 50%;
+        display: inline-block;
+
+    }
+}
+
+.pulse-ring {
+    width: 250px;
+    height: 250px;
+    border: 20px solid #F00;
+    border-radius: 50%;
+    position: relative;
+    bottom: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: pulsate infinite 2s;
+}
+
+@-moz-keyframes pulsate {
+    0% {
+        -moz-transform: scale(0);
+        opacity: 0.1;
+    }
+    25% {
+        -moz-transform: scale(0.3, 0.3);
+        opacity: 0.15;
+    }
+    50% {
+        -moz-transform: scale(0.6, 0.6);
+        opacity: 0.2;
+    }
+    75% {
+        -moz-transform: scale(0.9, 0.9);
+        opacity: 0.25;
+    }
+    100% {
+        -moz-transform: scale(1.2, 1.2);
+        opacity: 0.3;
+    }
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0, 0);
+        opacity: 0.8;
+    }
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0;
+        border: 50px solid #F00;
+    }
+}
+
+.fheight {
+    height: 100%;
+}
+
+
+
