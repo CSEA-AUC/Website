@@ -1,0 +1,63 @@
+/* --- General --- */
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 20px;
+    color: #404040;
+    background: #FFF;
+
+    /* Hardcoded for footer*/
+    position: relative;
+    min-height: calc(100% - 282px);
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        min-height: calc(100% - 372px);
+    }
+}
+
+.main-content {
+    padding-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-content {
+        padding-top: 130px;
+    }
+}
+
+.main-explain-area {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 15px;
+}
+
+.hideme {
+    display: none;
+}
+
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: #b71137;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: #b71137;
+}
+
+.disqus-comments {
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .disqus-comments {
+        margin-top: 40px;
+    }
+}
