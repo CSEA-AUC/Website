@@ -5,7 +5,11 @@ body {
 
 .landing-page {
     color: white;
-    background: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: black no-repeat center;
     height: 100%;
     position: relative;
     text-align: center;
@@ -75,5 +79,12 @@ body {
     height: 100%;
 }
 
+// For background image
+//background-repeat:no-repeat;
+//-webkit-background-size:cover;
+//-moz-background-size:cover;
+//-o-background-size:cover;
+//background-size:cover;
+//background-position:center;
 
 
