@@ -12,12 +12,14 @@ body {
 
     /* Hardcoded for footer*/
     position: relative;
-    min-height: calc(100% - 282px);
+    min-height: calc(100% - 202px);
+    //min-height: calc(100% - 282px);
 }
 
 @media only screen and (min-width: 768px) {
     body {
-        min-height: calc(100% - 372px);
+        min-height: calc(100% - 242px);
+        //min-height: calc(100% - 372px);
     }
 }
 
