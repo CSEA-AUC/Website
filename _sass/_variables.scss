@@ -1,1 +1,13 @@
-$grey: #030303;
+$white: #EEEEEE !default;
+$light_grey: #808080 !default;
+$light_black: #404040 !default;
+$blue: #008AFF !default;
+
+$navbar: darken($white, 5%) !default;
+
+$text: $light_black !default;
+
+$footer_background: #222 !default;
+
+$link: $blue !default;
+$link_highlighted: lighten($link, 5%);
