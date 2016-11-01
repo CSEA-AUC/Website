@@ -1,0 +1,27 @@
+.warning-container {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 60px;
+    .warning-logo {
+        background: #D91E18;
+        box-shadow: 0 0 12px black;
+        height: 200px;
+        width: 200px;
+        border-radius: 300px;
+        display: inline-block;
+        span {
+            display: inline-block;
+            font-size: 100px;
+            line-height: 200px;
+            color: $white;
+        }
+    }
+    & > span {
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 5%;
+        display: block;
+    }
+}
