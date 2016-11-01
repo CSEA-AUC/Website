@@ -1,40 +1,32 @@
-p {
-    line-height: 1.5;
-    margin: 10px 0 20px 0;
-}
-
-p a {
-    /* text-decoration: underline */
-    color: #008AFF;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
 }
 
-a {
-    color: #008AFF;
+p {
+    line-height: 1.5;
+    margin: 10px 0 20px 0;
 }
 
-a:hover,
-a:focus {
-    color: #b71137;
+a {
+    color: $link;
+    &:hover, &:focus {
+        color: $link_hover;
+    }
 }
 
 blockquote {
-    color: #808080;
+    color: $blockquote;
     font-style: italic;
-}
 
-blockquote p:first-child {
-    margin-top: 0;
+    p:first-child {
+        margin-top: 0;
+    }
 }
 
 hr.small {
     max-width: 100px;
     margin: 15px auto;
-    border-width: 4px;
-    border-color: inherit;
+    border: 4px inherit;
     border-radius: 3px;
 }

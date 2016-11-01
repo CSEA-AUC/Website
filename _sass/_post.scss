@@ -1,0 +1,58 @@
+/* --- Post preview --- */
+
+.post-preview {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+
+    .post-title {
+        word-wrap: break-word;
+        font-size: 30px;
+        margin-top: 0;
+        @media only screen and (min-width: 768px) {
+            font-size: 32px;
+        }
+    }
+    .post-subtitle {
+        font-weight: 300;
+        margin: 0 0 10px;
+    }
+    &:first-child {
+        margin-top: 30px;
+        padding-top: 0;
+    }
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: $post_title;
+        &:focus, &:hover {
+            text-decoration: none;
+            color: $post_title_hover_color;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding: 35px 0;
+    }
+
+    .post-read-more {
+        font-weight: 800;
+    }
+
+    .post-entry {
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+}
+
+.post-meta {
+    color: $post_meta;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 10px;
+}
+
+.post-heading h1 {
+    word-wrap: break-word;
+}
