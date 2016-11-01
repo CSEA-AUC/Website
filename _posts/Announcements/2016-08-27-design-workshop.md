@@ -14,9 +14,8 @@ You will learn how to design flyers, posters, banners and even magazines!
 Our instructor also promises to help you with branding and logo design.
 So hurry up and signup [here](https://goo.gl/forms/TqWixlfZwiGBFMyD2)
 
-We will be waiting for you next Sunday at 5:00 PM in the CS General Labs.
+We will be waiting for you next **Sunday at 5:00 PM** in the **CS General Labs.**
 
 _Note: Workshops are a collaboration between CSEA and the Architecture Association_
 
 ![alt text](/assets/img/ill.jpg "Learn Design!")
-

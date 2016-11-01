@@ -3,6 +3,8 @@ img {
     margin: 0 auto;
     padding: 20px;
     max-width: 100%;
+    //background: lighten($light_grey, 20%);
+    //border: 3px solid darken($white, 10%);
     &::selection, &::-moz-selection {
         color: white;
         background: transparent;

@@ -3,7 +3,9 @@ $light_grey: #808080 !default;
 $light_black: #404040 !default;
 $blue: #008AFF !default;
 
-$navbar: darken($white, 5%) !default;
+$navbar-bg: darken($white, 3%) !default;
+$navbar-btn: $light_black !default;
+$navbar-btn-hover: $blue !default;
 
 $text: $light_black !default;
 $body: $white;
@@ -14,7 +16,7 @@ $post_meta: $light_grey !default;
 $selection: $white !default;
 $selection_background: $blue !default;
 
-$footer_background: #222 !default;
+$footer_bg: #222 !default;
 
 $link: $blue !default;
 $link_hover: lighten($link, 5%) !default;

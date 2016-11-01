@@ -1,57 +1,61 @@
 /* --- Footer --- */
 
 footer {
-  padding: 30px 0;
-  background: #222;
-  /*border-top: 1px #EAEAEA solid;*/
-  font-size: 14px;
+    padding: 30px 0;
+    background: $footer_bg;
+    /*border-top: 1px #EAEAEA solid;*/
+    font-size: 14px;
 
-  /* Hardcoded values to prevent empty space between footer and end of page */
-  position: absolute;
-  bottom: -202px;
-  width: 100%;
+    /* Hardcoded values to prevent empty space between footer and end of page */
+    position: absolute;
+    bottom: -202px;
+    width: 100%;
 
-  a {
-    color: #a4a4a4;
-  }
+    .list-inline {
+        margin: 0;
+        padding: 0;
+    }
+    .copyright {
+        font-family: 'Raleway', sans-serif;
+        text-align: right;
+        margin-bottom: 0;
+        color: #959595;
+        font-size: 0.8rem;
+        @media only screen and (min-width: 768px) {
+            font-size: 16px;
+        }
+    }
+    nav {
+        font-size: 15px;
+        margin: 0 0 8px 0;
+        strong {
+            color: white;
+            margin-right: 20px;
+        }
+        a {
+            color: $light_grey;
+            margin-right: 10px;
+            &:hover, &:focus {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+    .email {
+        font-size: 15px;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
 
-  .list-inline {
-    margin: 0;
-    padding: 0;
-  }
-  .copyright {
-    font-family: Open Sans, serif;
-    text-align: center;
-    margin-bottom: 0;
-    color: #959595;
-    font-size: 0.8rem;
     @media only screen and (min-width: 768px) {
-      font-size: 16px;
+        padding: 50px 0;
+        bottom: -242px;
+        .footer-links {
+            font-size: 18px;
+        }
     }
-  }
-  nav {
-    font-size: 15px;
-    margin: 0 0 8px 0;
-    strong {
-      color: white;
-      margin-right: 20px;
-    }
-    a {
-      color: #959595;
-      margin-right: 10px;
-    }
-  }
-  .email {
-    font-size: 15px;
-    color: white;
-    font-weight: 700;
-  }
-
-  @media only screen and (min-width: 768px) {
-    padding: 50px 0;
-    bottom: -242px;
-    .footer-links {
-      font-size: 18px;
-    }
-  }
 }

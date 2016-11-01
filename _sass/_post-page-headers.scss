@@ -61,7 +61,6 @@
     font-size: 27px;
     line-height: 1.1;
     display: block;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin: 10px 0 0;
 }
@@ -76,6 +75,7 @@
 }
 
 .intro-header.big-img .page-heading hr {
+    border: 2px solid white;
     box-shadow: 1px 1px 3px #000;
     -webkit-box-shadow: 1px 1px 3px #000;
     -moz-box-shadow: 1px 1px 3px #000;
@@ -91,7 +91,6 @@
     padding: 5px 10px;
     font-size: 11px;
     color: #EEE;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     right: 0;
     bottom: 0;
     display: none;
@@ -112,6 +111,7 @@
     }
 
     .intro-header .page-heading h1 {
+        letter-spacing: 8px;
         font-size: 80px;
     }
 
