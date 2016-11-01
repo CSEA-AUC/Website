@@ -61,7 +61,7 @@ footer {
             font-size: 18px;
         }
     }
-    //@media only screen and (max-width: 365px) {
-    //    bottom: -232px;
-    //}
+    @media only screen and (max-width: 420px) {
+        bottom: -242px;
+    }
 }
