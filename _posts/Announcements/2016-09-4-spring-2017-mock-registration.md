@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSCE Spring 2017 Mock Registration
-subtitle: To help you secure your slots.
+subtitle: To help you secure your course slots.
 category: Announcements
 ---
 
