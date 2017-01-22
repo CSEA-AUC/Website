@@ -31,7 +31,7 @@ Engineer AbdurRahman ElGammal is the owner of the American company MeNooN LLC fo
 He travels around the world and participate in international technical events and supervise training events in Egypt every six months.
 
 This time the training is designed based on the Russian training camps which train the top programmers on the planet.
-To know more about the training watch this video for AbdurRahman ElGammal interview with Jacob Dlougach who works at Google and a member of the ACM-ICPC Analysis team
+To know more about the training watch [this video](https://www.facebook.com/abdurrahman.elgammal/videos/10155530997590065) for AbdurRahman ElGammal interview with Jacob Dlougach who works at Google and a member of the ACM-ICPC Analysis team
 
 ### Registration Fees
 AUCians : 100 L.E
