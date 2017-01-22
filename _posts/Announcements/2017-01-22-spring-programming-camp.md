@@ -18,8 +18,9 @@ AUC Main Campus, New Cairo
 ### Session times
 5:00 pm to 10:00 pm
 
-Start Date : February 11th
-End Date : Februrary 23rd
+Start Date: February 11th
+
+End Date: Februrary 23rd
 
 ### Trainer
 Abdurrahman El-Gamal
@@ -28,14 +29,17 @@ Professional ACM Trainer.
 ### Trainer Bio
 Engineer AbdurRahman ElGammal is the owner of the American company MeNooN LLC for training and is very known for his creative technical training that takes students from zero computer knowledge to the top programmers, the training is known in many countries like Malaysia, Lebanon, Saudi Arabia, and many other countries.
 He travels around the world and participate in international technical events and supervise training events in Egypt every six months.
+
 This time the training is designed based on the Russian training camps which train the top programmers on the planet.
 To know more about the training watch this video for AbdurRahman ElGammal interview with Jacob Dlougach who works at Google and a member of the ACM-ICPC Analysis team
 
-### Registration Fees:
+### Registration Fees
 AUCians : 100 L.E
+
 Outsiders : 1800 L.E.
 
 You don't need any previous programming knowledge to join this camp.
+
 Deadline for payment will be the 2nd of Februrary.
 
 For payment, we will call you as soon as you fill in the form.
